@@ -15,7 +15,7 @@ module PipelineCPU (
     input  [31:0] inst
 );
 
-// Your CPU core here!
 
+// Your CPU core here!!
 
 endmodule
