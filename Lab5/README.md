@@ -92,16 +92,16 @@ r 80c9578
 ::: info
 :bulb: You can use Python to program the pattern generator to generate the test case to verify your Cache Manager
 :::
+## Requirement
+You can only modify CacheManager.cpp and CacheManager.h. For all who submit this lab, you will get 80 points if your miss counts is better than template, for the remained 20 points are based on the median miss counts of all submission.
 
-## Submission
-Please submit your source code as a zip file to **E3**.
-
-The name of the zip file should be <student_id>.zip, and the structure of the file should be as the following:
-
+Submit zip file with the following format.
 ```
 <stduent_id>.zip
-    |- <student_id>/
-        |- ...(your source codes)
+   |- <student_id>/
+      |- CacheManager.cpp
+      |- CacheManager.h
+      |- (don't zip other files)
 ```
 
 
