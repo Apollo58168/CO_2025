@@ -12,7 +12,7 @@ Additionally, you are free to design the **Cache replacement policy** and **upda
  
 
 ## Explain the code
-```cpp=
+```cpp
 class Cache
 {
 private:
@@ -38,7 +38,7 @@ This is the Class of **Cache** we provide, you can use the
 
 -----
 
-```cpp=
+```cpp
 class Block{
 private:
     std::vector<unsigned int> values;
@@ -55,7 +55,7 @@ this is the Class of **Block** we provide, you must record the **Tag** in ```Blo
 
 -----
 
-```cpp=
+```cpp
 class CacheManager
 {
 private:
