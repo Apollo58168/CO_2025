@@ -74,9 +74,9 @@ public:
 This is Class of **CacheManager**, you need to config your metadata in Constructor (ex: block size, cache way...), and design your cache manager read/write in cpp file.
 Test pattern will call the CacheManger read/write to communicate with your cache, so this part you must manage your data in cache and memory properly.
 
-::: info
+
 :bulb: block size need to call Class Cache api ```set_block_size(unsigned int block_size)```
-:::
+
 
 #### simple test case
 ```
@@ -89,9 +89,9 @@ w 80c9578 e79be23
 r bf880c18
 r 80c9578
 ```
-::: info
+
 :bulb: You can use Python to program the pattern generator to generate the test case to verify your Cache Manager
-:::
+
 ## Requirement
 You can only modify CacheManager.cpp and CacheManager.h. For all who submit this lab, you will get 80 points if your miss counts is better than template, for the remained 20 points are based on the median miss counts of all submission.
 
@@ -103,8 +103,6 @@ Submit zip file with the following format.
       |- CacheManager.h
       |- (don't zip other files)
 ```
-
-
 
 ## Reference
 Computer Organization and Design RISC-V Edition, CH5
