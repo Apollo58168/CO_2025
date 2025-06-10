@@ -27,4 +27,3 @@ $(OBJ_DIR)/%.o: $(SRC_DIR)/%.cpp | $(OBJ_DIR)
 clean:
 	rm main
 	rm obj/*
-
